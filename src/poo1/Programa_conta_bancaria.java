@@ -17,8 +17,8 @@ public class Programa_conta_bancaria {
 
         System.out.print("Digita o número da conta: ");
         int numero_conta = scan.nextInt();
-        scan.nextLine();
         System.out.print("Nome do titular: ");
+        scan.nextLine();
         String nome_titular = scan.nextLine();
 
         Conta_bancaria conta = new Conta_bancaria(numero_conta, nome_titular, saldo);

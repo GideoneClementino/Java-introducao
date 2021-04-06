@@ -21,6 +21,8 @@ public class Conta_bancaria {
     }
 
     public void dados_conta(){
+        System.out.println();
+        System.out.println("Dados atualizados");
         System.out.printf("Conta %d, Titular: %s, Saldo: %.2f\n", numero_conta, nome_titular, saldo);
     }
 
