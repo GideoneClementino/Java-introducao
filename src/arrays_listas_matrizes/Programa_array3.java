@@ -19,6 +19,7 @@ public class Programa_array3 {
         int quant_alunos = scan.nextInt();
 
         //Instanciando vetores dos objetos
+        Aluno[] vetor_aluno = new Aluno[quant_alunos];
         Quarto[] vetor_quarto = new Quarto[9];
         scan.nextLine();
 
@@ -33,18 +34,18 @@ public class Programa_array3 {
             numero_quarto = scan.nextInt();
             scan.nextLine();
 
-            vetor_quarto[i] = new Quarto(numero_quarto, nome, email);
-            aluguel[numero_quarto] = vetor_quarto[i].getNumero_quarto() + ": " + vetor_quarto[i].getNome() + ", " +
-                    vetor_quarto[i].getEmail();
+            vetor_quarto[i] = new Quarto(numero_quarto);
+            vetor_aluno[i] = new Aluno(nome, email);
+
+            aluguel[numero_quarto] = vetor_quarto[i].getNumero_quarto() + ": " + vetor_aluno[i].getNome() + ", " +
+                    vetor_aluno[i].getEmail();
         }
         System.out.println("Quartos ocupados:");
         for (int i = 0; i < vetor_quarto.length; i++) {
             if (aluguel[i] == null) {
-
             } else {
                 System.out.println(aluguel[i]);
             }
-
         }
         scan.close();
     }
