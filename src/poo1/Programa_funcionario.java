@@ -20,10 +20,10 @@ public class Programa_funcionario {
 		funcionario.imposto = sc.nextDouble();
 		
 		System.out.println();
-		System.out.printf("Funcion·rio: %s, $ %.2f\n", funcionario.nome, funcionario.salarioLiquido());
+		System.out.printf("Funcion√°rio: %s, $ %.2f\n", funcionario.nome, funcionario.salarioLiquido());
 		
 		System.out.println();
-		System.out.print("Qual porcentagem ser· o aumento? ");
+		System.out.print("Qual porcentagem ser√° o aumento? ");
 		double porcentagem = sc.nextDouble();
 		
 		System.out.println();

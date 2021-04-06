@@ -17,7 +17,7 @@ public class Programa_calculadora {
 		double c = Calculadora.circunferencia(raio);
 		double v = Calculadora.volume(raio);
 		
-		System.out.printf("Circunferência: %.2f\n", c);
+		System.out.printf("CircunferÃªncia: %.2f\n", c);
 		System.out.printf("Volume: %.2f\n", v);
 		System.out.printf("Valor PI: %.2f\n", Calculadora.PI);
 		

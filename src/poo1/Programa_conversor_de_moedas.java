@@ -11,9 +11,9 @@ public class Programa_conversor_de_moedas {
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.print("Digite o preÁo do dolar: ");
+		System.out.print("Digite o pre√ßo do dolar: ");
 		double dolar = sc.nextDouble();
-		System.out.println("Digite quanto ir· converter: ");
+		System.out.println("Digite quanto ir√° converter: ");
 		double valor = sc.nextDouble();
 		
 		double total = Conversor_de_moedas.conversor(valor, dolar);

@@ -13,26 +13,26 @@ public class Entrada_de_dados {
 		
 		System.out.print("Digite uma palavra: ");
 		x = sc.next();
-		System.out.println("Você digitou: " + x);
+		System.out.println("VocÃª digitou: " + x);
 		
 		System.out.println("------------------------------------------------------------");
 		
-		System.out.print("Digite um número inteiro: ");	
+		System.out.print("Digite um nï¿½mero inteiro: ");	
 		n = sc.nextInt();
-		System.out.println("Você digitou: " + n);
+		System.out.println("VocÃª digitou: " + n);
 		
 		System.out.println("------------------------------------------------------------");
 		
-		System.out.print("Digite um número double: ");	
+		System.out.print("Digite um nï¿½mero double: ");	
 		d = sc.nextDouble();
-		System.out.println("Você digitou: " + d);
+		System.out.println("VocÃª digitou: " + d);
 		              
 		System.out.println("------------------------------------------------------------");
 		
 		System.out.print("Digite um caractere: ");
 		//charAt para pegar a primeira letra
 		c = sc.next().charAt(0);
-		System.out.println("Você digitou: " + c);
+		System.out.println("VocÃª digitou: " + c);
 		
 		sc.close();
 	}

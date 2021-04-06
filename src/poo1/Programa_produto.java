@@ -18,7 +18,7 @@ public class Programa_produto {
         double preco = sc.nextDouble();
 
         Produto produto = new Produto(nome, preco);
-        //Testtando setter nome
+        //Testando setter nome
         produto.setNome("Computador");
         System.out.println("Nome atualizado: " + produto.getNome());
         //Testando getter preço
