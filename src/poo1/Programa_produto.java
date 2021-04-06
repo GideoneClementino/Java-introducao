@@ -16,31 +16,33 @@ public class Programa_produto {
         String nome = sc.nextLine();
         System.out.print("Preço: ");
         double preco = sc.nextDouble();
-        System.out.println("Quantidade no estoque: ");
+
+        Produto produto = new Produto(nome, preco);
+        //Testtando setter nome
+        produto.setNome("Computador");
+        System.out.println("Nome atualizado: " + produto.getNome());
+        //Testando getter preço
+        produto.setPreco(1200.00);
+        System.out.println("Preço atualizado: " + produto.getPreco());
+
+        System.out.println();
+        System.out.print("Dados do produto: " + produto.toString());
+
+        System.out.println();
+        System.out.print("Digite o número de produtos para adicionar no estoque: ");
         int quantidade = sc.nextInt();
-
-        Produto produto = new Produto(nome, preco, quantidade);
-
-        System.out.println();
-
-        System.out.println("Dados do produto: " + produto.toString());
-
-        System.out.println();
-        System.out.println("Digite o número de produtos para adicionar no estoque: ");
-        quantidade = sc.nextInt();
         produto.adicionarProdutos(quantidade);
 
         System.out.println();
-        System.out.println("Dados atualizados: " + produto.toString());
+        System.out.print("Dados atualizados: " + produto.toString());
 
         System.out.println();
-        System.out.println("Digite o número de produtos para remover do estoque: ");
+        System.out.print("Digite o número de produtos para remover do estoque: ");
         quantidade = sc.nextInt();
         produto.removerProdutos(quantidade);
 
         System.out.println();
-        System.out.println("Dados atualizados: " + produto.toString());
-
+        System.out.print("Dados atualizados: " + produto.toString());
         sc.close();
     }
 
