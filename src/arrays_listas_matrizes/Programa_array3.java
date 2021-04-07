@@ -25,7 +25,7 @@ public class Programa_array3 {
 
         for (int i = 0; i < quant_alunos; i++) {
             n += 1;
-            System.out.println("Quarto #" + n);
+            System.out.println("Quarto #" + n + ":");
             System.out.print("Nome: ");
             String nome = scan.nextLine();
             System.out.print("Email: ");
@@ -40,7 +40,10 @@ public class Programa_array3 {
             aluguel[numero_quarto] = vetor_quarto[i].getNumero_quarto() + ": " + vetor_aluno[i].getNome() + ", " +
                     vetor_aluno[i].getEmail();
         }
+
+        System.out.println();
         System.out.println("Quartos ocupados:");
+
         for (int i = 0; i < vetor_quarto.length; i++) {
             if (aluguel[i] == null) {
             } else {
