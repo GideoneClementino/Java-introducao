@@ -1,4 +1,4 @@
-package poo1;
+package db;
 
 import db.DB;
 
