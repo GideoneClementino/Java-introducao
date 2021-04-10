@@ -1,12 +1,13 @@
-package objetos_exercicios;
+package objetos_exercicio_composicao;
 
 import enums.Status_do_pedido;
-
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
 public class Pedido_exe {
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
     private Date momento;
     private Status_do_pedido status;
     //Relacionando cliente a lista
@@ -66,17 +67,17 @@ public class Pedido_exe {
     @Override
     public String toString() {
         StringBuilder sb = new StringBuilder();
+        sb.append("Horario do pedido ");
+        sb.append(sdf.format(momento) + "\n");
+        sb.append("Status do pedido: ");
+        sb.append(status + "\n");
+        sb.append("Cliente: ");
+        sb.append(cliente + "\n");
         for (Itens_exe i : itens){
-            sb.append(i.produto.getNome() + ", ");
-            sb.append("$");
-            sb.append(String.format("%.2f", i.produto.getPreco()));
-            sb.append(", ");
-            sb.append("Quantidade: ");
-            sb.append(i.getQuantidade());
-            sb.append(", Subtotal: ");
-            sb.append(String.format("%.2f", i.sub_total()));
-            sb.append("\n");
+            sb.append(i + "\n");
         }
+        sb.append("Preço total: $");
+        sb.append(String.format("%.2f", total()));
         return sb.toString();
     }
 }

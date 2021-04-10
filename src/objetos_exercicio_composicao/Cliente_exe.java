@@ -1,10 +1,10 @@
-package objetos_exercicios;
+package objetos_exercicio_composicao;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
 public class Cliente_exe {
-    SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
+    private static SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
     private String nome;
     private String email;
     private Date data_nascimento;

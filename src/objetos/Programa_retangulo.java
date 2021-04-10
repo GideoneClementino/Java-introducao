@@ -1,9 +1,9 @@
-package poo_exercicios;
+package objetos;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import objetos_exercicios.Retangulo;
+import objetos.Retangulo;
 
 public class Programa_retangulo {
 
