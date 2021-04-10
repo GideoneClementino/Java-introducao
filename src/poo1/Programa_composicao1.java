@@ -52,7 +52,8 @@ public class Programa_composicao1 {
         int ano = Integer.parseInt(mes_e_ano.substring(3));
         System.out.println("Nome: " + trabalhador.getNome());
         System.out.println("Departamento: " + trabalhador.getDepartamento().getNome());
-        System.out.println("Ganhos do mes " + mes_e_ano + ": " + String.format("%.2f", trabalhador.calcula_ganhos(ano, mes)));
+        System.out.println("Ganhos do mes " + mes_e_ano + ": " + String.format("%.2f",
+                trabalhador.calcula_ganhos(ano, mes)));
 
         scanner.close();
     }

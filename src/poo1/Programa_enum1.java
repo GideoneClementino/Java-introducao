@@ -1,6 +1,8 @@
 package poo1;
 
 import enums.Status_do_pedido;
+import objetos.Pedido;
+
 import java.util.Date;
 
 public class Programa_enum1 {
