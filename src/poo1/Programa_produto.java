@@ -26,7 +26,7 @@ public class Programa_produto {
         System.out.println("Preço atualizado: " + produto.getPreco());
 
         System.out.println();
-        System.out.print("Dados do produto: " + produto.toString());
+        System.out.print("Dados do produto: " + produto);
 
         System.out.println();
         System.out.print("Digite o número de produtos para adicionar no estoque: ");
@@ -34,7 +34,7 @@ public class Programa_produto {
         produto.adicionarProdutos(quantidade);
 
         System.out.println();
-        System.out.print("Dados atualizados: " + produto.toString());
+        System.out.print("Dados atualizados: " + produto);
 
         System.out.println();
         System.out.print("Digite o número de produtos para remover do estoque: ");
@@ -42,7 +42,7 @@ public class Programa_produto {
         produto.removerProdutos(quantidade);
 
         System.out.println();
-        System.out.print("Dados atualizados: " + produto.toString());
+        System.out.print("Dados atualizados: " + produto);
         sc.close();
     }
 

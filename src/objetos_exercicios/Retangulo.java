@@ -1,4 +1,4 @@
-package objetos;
+package objetos_exercicios;
 
 public class Retangulo {
 	public double largura;

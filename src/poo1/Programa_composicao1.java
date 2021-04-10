@@ -25,9 +25,11 @@ public class Programa_composicao1 {
         System.out.print("Nivel do trabalhador: ");
         String trabalhador_nivel = scanner.nextLine();
         System.out.print("Salario base: ");
+
         double trabalhador_salario = scanner.nextDouble();
         Trabalhador trabalhador = new Trabalhador(trabalhador_nome, Nivel_do_trabalhador.valueOf(trabalhador_nivel),
                 trabalhador_salario, new Departamento(nome_departamento));
+
         System.out.print("Quantos contratos o trabalhador tera: ");
         int n_contratos = scanner.nextInt();
 

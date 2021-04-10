@@ -1,9 +1,9 @@
-package poo1;
+package poo_exercicios;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import objetos.Retangulo;
+import objetos_exercicios.Retangulo;
 
 public class Programa_retangulo {
 
@@ -15,7 +15,7 @@ public class Programa_retangulo {
 		System.out.println("Digite a largura e altura do retangulo: ");
 		retangulo.altura = sc.nextDouble();
 		retangulo.largura = sc.nextDouble();
-		System.out.printf("Área: %.2f\n", retangulo.area());
+		System.out.printf("ï¿½rea: %.2f\n", retangulo.area());
 		System.out.printf("Perimetro: %.2f\n", retangulo.perimetro());
 		System.out.printf("Diagonal: %.2f\n", retangulo.diagonal()); 
 	}

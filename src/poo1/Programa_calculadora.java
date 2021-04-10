@@ -20,7 +20,6 @@ public class Programa_calculadora {
 		System.out.printf("Circunferência: %.2f\n", c);
 		System.out.printf("Volume: %.2f\n", v);
 		System.out.printf("Valor PI: %.2f\n", Calculadora.PI);
-		
 		sc.close();
 	}
 }
