@@ -1,4 +1,4 @@
-package objetos_exercicio_composicao;
+package exercicio_composicao;
 
 import enums.Status_do_pedido;
 import java.text.SimpleDateFormat;

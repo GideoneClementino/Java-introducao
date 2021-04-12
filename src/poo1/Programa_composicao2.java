@@ -1,7 +1,7 @@
 package poo1;
 
-import objetos.Comentario;
-import objetos.Post;
+import composicao.Comentario;
+import composicao.Post;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

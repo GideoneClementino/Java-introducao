@@ -1,4 +1,4 @@
-package objetos_exercicio_composicao;
+package exercicio_composicao;
 
 public class Itens_exe {
     private Integer quantidade;

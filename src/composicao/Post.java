@@ -1,4 +1,6 @@
-package objetos;
+package composicao;
+
+import composicao.Comentario;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

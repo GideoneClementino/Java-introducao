@@ -1,9 +1,9 @@
 package poo1;
 
 import enums.Nivel_do_trabalhador;
-import objetos.Contrato_por_hora;
+import composicao.Contrato_por_hora;
 import objetos.Departamento;
-import objetos.Trabalhador;
+import composicao.Trabalhador;
 
 import java.text.ParseException;
 import java.text.SimpleDateFormat;

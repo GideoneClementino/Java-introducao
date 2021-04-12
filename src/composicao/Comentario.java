@@ -1,4 +1,4 @@
-package objetos;
+package composicao;
 
 public class Comentario {
     private String text;

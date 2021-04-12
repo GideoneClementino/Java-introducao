@@ -1,4 +1,4 @@
-package objetos;
+package composicao;
 
 import java.util.Date;
 

@@ -1,4 +1,4 @@
-package objetos_exercicio_composicao;
+package exercicio_composicao;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;

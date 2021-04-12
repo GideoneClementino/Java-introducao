@@ -1,4 +1,4 @@
-package objetos_exercicio_composicao;
+package exercicio_composicao;
 
 public class Produto_exe {
     private String nome;

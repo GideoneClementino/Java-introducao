@@ -1,6 +1,7 @@
-package objetos;
+package composicao;
 
 import enums.Nivel_do_trabalhador;
+import objetos.Departamento;
 
 import java.util.ArrayList;
 import java.util.Calendar;
