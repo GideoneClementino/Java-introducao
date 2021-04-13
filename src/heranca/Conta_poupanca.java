@@ -16,8 +16,9 @@ public class Conta_poupanca extends Conta{
         saldo += saldo * taxa_juros;
     }
 
+    //Sobreposições multiplas podem causas confusoes por isso adicionamos o final a cada metodo override
     @Override
-    public void saque(double valor) {
+    public final void saque(double valor) {
         saldo -= valor;
     }
 
