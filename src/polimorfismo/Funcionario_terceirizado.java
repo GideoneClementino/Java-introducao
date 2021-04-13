@@ -1,4 +1,4 @@
-package heranca;
+package polimorfismo;
 
 public class Funcionario_terceirizado extends Funcionario{
     private Double bonus;

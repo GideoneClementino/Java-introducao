@@ -1,4 +1,4 @@
-package heranca;
+package polimorfismo;
 
 public class Funcionario {
     private String nome;
